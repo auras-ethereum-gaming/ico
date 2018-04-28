@@ -6,7 +6,7 @@ import './ManagedToken.sol';
  * @title TransferLimitedToken
  * @dev Token with ability to limit transfers within wallets included in limitedWallets list for certain period of time
  */
-contract TransferLimitedToken is ManagedToken {
+contract TransferLimitedTokens is ManagedToken {
     uint256 public constant LIMIT_TRANSFERS_PERIOD = 365 days;
 
     mapping(address => bool) public limitedWallets;
