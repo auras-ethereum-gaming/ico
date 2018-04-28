@@ -4,7 +4,7 @@ pragma solidity ^0.4.21;
  * @title IPollManagedFund
  * @dev Fund callbacks used by polling contracts
  */
-interface IPollManagedFund {
+interface PollManagedFund {
     /**
      * @dev TapPoll callback
      * @param agree True if new tap value is accepted by majority of contributors

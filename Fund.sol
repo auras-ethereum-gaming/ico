@@ -7,7 +7,7 @@ import './token/ManagedToken.sol';
 import './SimpleCrowdsale.sol';
 
 
-contract Fund is ICrowdsaleFund, SafeMath, MultiOwnable {
+contract Fund is CrowdsaleFund, SafeMath, MultiOwnable {
     enum FundState {
         Crowdsale,
         CrowdsaleRefund,

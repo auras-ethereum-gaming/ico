@@ -1,7 +1,7 @@
 pragma solidity ^0.4.21;
 
 import './polls/BasePoll.sol';
-import './fund/IPollManagedFund.sol';
+import './fund/PollManagedFund.sol';
 
 /**
  * @title RefundPoll
@@ -47,7 +47,7 @@ contract RefundPoll is BasePoll {
     }
 
     function onPollFinish(bool agree) internal {
-        IPollManagedFund fund = IPollManagedFund(fundAddress);
+        PollManagedFund fund = PollManagedFund(fundAddress);
         fund.onRefundPollFinish(agree);
     }
 

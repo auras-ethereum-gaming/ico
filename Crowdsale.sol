@@ -1,7 +1,7 @@
 pragma solidity ^0.4.21;
 
-import './fund/ICrowdsaleFund.sol';
-import './fund/ICrowdsaleReservationFund.sol';
+import './fund/CrowdsaleFund.sol';
+import './fund/CrowdsaleReservationFund.sol';
 import './token/IERC20Token.sol';
 import './token/TransferLimitedToken.sol';
 import './token/LockedTokens.sol';

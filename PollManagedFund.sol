@@ -4,7 +4,7 @@ import './DateTime.sol';
 import './Fund.sol';
 import './TapPoll.sol';
 import './RefundPoll.sol';
-import './fund/IPollManagedFund.sol';
+import './fund/PollManagedFund.sol';
 import './token/TokenEventListener.sol';
 
 /**
