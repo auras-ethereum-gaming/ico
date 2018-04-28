@@ -6,7 +6,7 @@ import './ownership/Ownable.sol';
 import './math/SafeMath.sol';
 
 
-contract ReservationFund is ICrowdsaleReservationFund, Ownable, SafeMath {
+contract ReservationFund is CrowdsaleReservationFund, Ownable, SafeMath {
     bool public crowdsaleFinished = false;
 
     mapping(address => uint256) contributions;

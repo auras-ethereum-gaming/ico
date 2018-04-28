@@ -4,7 +4,7 @@ import './token/TransferLimitedToken.sol';
 
 
 contract ARX is TransferLimitedTokens {
-    uint256 public constant SALE_END_TIME = 1526479200; // 16.05.2018 14:00:00 UTC
+    uint256 public constant SALE_END_TIME = 1526479200; //  UTC time now, tempolaly
 
     function ADX(address _listener, address[] _owners, address manager) public
         TransferLimitedTokens(SALE_END_TIME, _listener, _owners, manager)
