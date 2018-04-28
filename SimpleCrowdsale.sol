@@ -1,7 +1,7 @@
 pragma solidity ^0.4.21;
 
 
-interface ISimpleCrowdsale {
+interface SimpleCrowdsale {
     function getSoftCap() external view returns(uint256);
     function isContributorInLists(address contributorAddress) external view returns(bool);
     function processReservationFundContribution(

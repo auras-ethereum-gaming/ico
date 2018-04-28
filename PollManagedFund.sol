@@ -11,7 +11,7 @@ import './token/TokenEventListener.sol';
  * @title PollManagedFund
  * @dev Fund controlled by users
  */
-contract PollManagedFund is Fund, DateTime, ITokenEventListener {
+contract PollManagedFund is Fund, DateTime, TokenEventListener {
     uint256 public constant TAP_POLL_DURATION = 3 days;
     uint256 public constant REFUND_POLL_DURATION = 7 days;
     uint256 public constant MAX_VOTED_TOKEN_PERC = 10;

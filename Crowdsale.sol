@@ -10,7 +10,7 @@ import './Pausable.sol';
 import './ISimpleCrowdsale.sol';
 
 
-contract ADXsales is Ownable, SafeMath, Pausable, ISimpleCrowdsale {
+contract ADXsales is Ownable, SafeMath, Pausable, SimpleCrowdsale {
     enum AdditionalBonusState {
         Unavailable,
         Active,
