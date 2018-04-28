@@ -4,7 +4,7 @@ pragma solidity ^0.4.21;
  * @title ITokenEventListener
  * @dev Interface which should be implemented by token listener
  */
-interface ITokenEventListener {
+interface TokenEventListener {
     /**
      * @dev Function is called after token transfer/transferFrom
      * @param _from Sender address

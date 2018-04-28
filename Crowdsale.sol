@@ -46,8 +46,8 @@ contract ADXsales is Ownable, SafeMath, Pausable, ISimpleCrowdsale {
     uint256 public tokenPriceDenom = 0;
 
     TransferLimitedToken public token;
-    ICrowdsaleFund public fund;
-    ICrowdsaleReservationFund public reservationFund;
+    CrowdsaleFund public fund;
+    CrowdsaleReservationFund public reservationFund;
     LockedTokens public lockedTokens;
 
     mapping(address => bool) public whiteList;

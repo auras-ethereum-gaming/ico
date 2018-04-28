@@ -1,7 +1,7 @@
 pragma solidity ^0.4.21;
 
 /**
- * @title IPollManagedFund
+ * @title PollManagedFund
  * @dev Fund callbacks used by polling contracts
  */
 interface PollManagedFund {
