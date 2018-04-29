@@ -2,6 +2,7 @@
 
 const ADXtoknenCrowdSales = artifacts.require("./ADXtoknenCrowdSales.sol")
 
+
 module.exports = function(deployer, network, accounts) {
   const _openingTime = web3.eth.getBlock(web3.eth.blockNumber).timestamp + 1 // one second in the future
   const _closingTime = _openingTime + (60 * 10) // 10 minutes
